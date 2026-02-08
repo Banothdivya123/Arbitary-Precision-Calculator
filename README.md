@@ -45,14 +45,11 @@ Avoiding all built-in arithmetic for large values
 This approach closely resembles how calculations are done manually and helps understand low-level computation.
 
 # ⚙️ How to Run
-1. Clone the Repository
-git clone https://github.com/sadvika-ch/apc-in-c.git
-cd apc-in-c
 
-# 2. Compile the Program
+#  Compile the Program
 gcc *.c -o apc
 
-# 3. Run the Program
+#  Run the Program
 ./apc
 
 # 🚀 Usage Examples
@@ -67,3 +64,21 @@ gcc *.c -o apc
 
 # Division
 ./apc 987654321987654321 / 123456789
+
+# Notes
+Numbers are internally stored using linked lists, one digit per node.
+This allows handling numbers of unlimited length (memory dependent).
+The program avoids built-in data types like int, long, long long for calculations.
+Designed as a learning-oriented system-level project for understanding:
+memory management
+pointer manipulation
+algorithm design
+modular programming in C
+# Skills Learned
+C programming
+Linked list implementation
+Dynamic memory allocation (malloc, free)
+Pointer manipulation
+Algorithmic logic for arithmetic operations
+Modular project structuring
+Debugging large-scale C programs
