@@ -70,15 +70,27 @@ Numbers are internally stored using linked lists, one digit per node.
 This allows handling numbers of unlimited length (memory dependent).
 The program avoids built-in data types like int, long, long long for calculations.
 Designed as a learning-oriented system-level project for understanding:
+
 -> memory management
+
 -> pointer manipulation
+
 -> algorithm design
+
 -> modular programming in C
+
 # Skills Learned
+
 -> C programming
+
 -> Linked list implementation
+
 -> Dynamic memory allocation (malloc, free)
+
 -> Pointer manipulation
+
 -> Algorithmic logic for arithmetic operations
+
 -> Modular project structuring
+
 -> Debugging large-scale C programs
